@@ -7,4 +7,9 @@ export class ProductService {
   constructor(private _http: Http) { }
 
   private _albumUrl = "../assets/album.json";
+
+  getAlbum(id : number)
+  {
+    
+  }
 }
